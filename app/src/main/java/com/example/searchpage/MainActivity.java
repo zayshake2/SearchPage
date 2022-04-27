@@ -15,6 +15,7 @@ import android.widget.SearchView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,23 +45,19 @@ public class MainActivity extends AppCompatActivity {
         {
             @Override
             public void onItemClick (AdapterView < ? > adapterView, View view, int i, long l){
+                HashMap<Object, Object> map = null;
                 if (i == 0) {
 
-                    startActivity(new Intent(MainActivity.this, CompRep.class));
+                    startActivity(new Intent(MainActivity.this, Tutoring.class));
 
                 }
-                else if (i == 1) {
+                else if (i==1) {
                     startActivity(new Intent(MainActivity.this, Electric.class));
                 }
                 else if (i == 2) {
-                    startActivity(new Intent(MainActivity.this, HomeCleaning.class));
+                    startActivity(new Intent(MainActivity.this, Electric.class));
                 }
-                else if (i == 3) {
-                    startActivity(new Intent(MainActivity.this, Tutoring.class));
-                }
-                else if (i == 4) {
-                    startActivity(new Intent(MainActivity.this, HomeRepairAndPainting.class));
-                }
+
             }
         });
 

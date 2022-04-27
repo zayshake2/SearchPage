@@ -1,10 +1,8 @@
 <resources>
     <string name="app_name">SearchSMS</string>
     <string-array name="Vendor_Options">
-        <item>Computer Repair</item>
-        <item>Electrical</item>
-        <item>Home Cleaning</item>
-        <item>Tutoring</item>
-        <item>Home Repair and Painting</item>
+        <item>Arabic Lessons with Sammy</item>
+        <item>Chris Cables</item>
+        <item>Swagats Bulbs</item>
     </string-array>
 </resources>
